@@ -8,7 +8,7 @@ import ProductCard from '@/components/ProductCard'
 import Modal from '@/components/Modal'
 
 type Props = {
-  params: {id: String}
+  params: {id: string}
 }
 
 const productDetails = async ({ params: { id } }: Props) => {
